@@ -15,14 +15,6 @@ module.exports = {
                     kwargs: blk.kwargs
                 };
 
-                try {
-                    fs.writeFileSync('/Users/jason/work/defi/cpbox/cpbox-docs/debug.log', 
-                        `${new Date().toISOString()} - Block: ${JSON.stringify(block, null, 2)}\n`, 
-                        { flag: 'a' });
-                } catch (e) {
-                    console.error('Error writing to log file:', e);
-                }
-
                 let url = '';
                 
                 // 尝试从不同位置获取 URL
