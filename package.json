@@ -1,0 +1,32 @@
+{
+  "name": "gitbook-plugin-video-embed",
+  "version": "0.0.1",
+  "description": "GitBook plugin to embed videos using Liquid template syntax",
+  "main": "index.js",
+  "engines": {
+    "gitbook": ">=3.0.0"
+  },
+  "dependencies": {
+  },
+  "keywords": [
+    "gitbook",
+    "video",
+    "embed",
+    "youtube",
+    "liquid"
+  ],
+  "author": "CPBOX",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CPBOX/gitbook-plugin-video-embed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CPBOX/gitbook-plugin-video-embed/issues"
+  },
+  "homepage": "https://github.com/CPBOX/gitbook-plugin-video-embed#readme",
+  "files": [
+    "index.js",
+    "package.json"
+  ]
+} 
